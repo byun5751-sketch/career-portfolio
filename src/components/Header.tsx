@@ -60,7 +60,7 @@ export function Header({ lang }: { lang: Lang }) {
             {currentLangLabel}
           </Link>
           <a
-            href="mailto:byunjaeil77@gmail.com"
+            href="#contact"
             className="rounded-full bg-highlight px-4 py-1.5 text-[13px] font-medium text-white transition-colors hover:bg-text"
           >
             {t.nav.contact}

@@ -6,7 +6,7 @@ import { getTranslations } from "@/lib/i18n";
 export function Footer({ lang }: { lang: Lang }) {
   const t = getTranslations(lang);
   return (
-    <footer className="border-t border-border bg-surface-warm">
+    <footer id="contact" className="scroll-mt-20 border-t border-border bg-surface-warm">
       <div className="site-shell py-16">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-sm">
@@ -16,7 +16,7 @@ export function Footer({ lang }: { lang: Lang }) {
               <a href="mailto:byunjaeil77@gmail.com" className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-text-secondary transition-colors hover:border-accent hover:text-accent">
                 <Mail size={16} />
               </a>
-              <a href="https://www.linkedin.com/in/jaeilbyun" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-text-secondary transition-colors hover:border-accent hover:text-accent">
+              <a href="https://www.linkedin.com/in/brasleybyun/ko/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-text-secondary transition-colors hover:border-accent hover:text-accent">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
               </a>
             </div>
@@ -42,7 +42,7 @@ export function Footer({ lang }: { lang: Lang }) {
               <p className="text-[11px] font-medium uppercase tracking-widest text-text-tertiary">{t.footer.contact}</p>
               <ul className="mt-5 space-y-3">
                 <li><a href="mailto:byunjaeil77@gmail.com" className="text-sm text-text-secondary hover:text-text">byunjaeil77@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/jaeilbyun" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/brasleybyun/ko/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">LinkedIn</a></li>
               </ul>
             </div>
           </div>

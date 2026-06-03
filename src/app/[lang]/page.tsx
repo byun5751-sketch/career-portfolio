@@ -173,7 +173,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <a href="mailto:byunjaeil77@gmail.com" className="group flex items-center gap-2 rounded-lg bg-highlight px-5 py-2.5 text-[13px] font-medium text-white transition-colors hover:bg-text">
               {t.cta.email} <ArrowRight size={13} className="transition-transform group-hover:translate-x-0.5" />
             </a>
-            <a href="https://www.linkedin.com/in/jaeilbyun" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-border bg-surface px-5 py-2.5 text-[13px] font-medium text-text hover:border-border-strong">
+            <a href="https://www.linkedin.com/in/brasleybyun/ko/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-border bg-surface px-5 py-2.5 text-[13px] font-medium text-text hover:border-border-strong">
               {t.cta.linkedin}
             </a>
           </div>
