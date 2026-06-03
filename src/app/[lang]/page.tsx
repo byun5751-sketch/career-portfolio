@@ -82,11 +82,13 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             { icon: <GraduationCap size={16} />, value: "4.41", label: t.stats.gpa },
             { icon: <Award size={16} />, value: "10+", label: t.stats.awards },
           ].map((s, i) => (
-            <div key={s.label} className={`flex items-center gap-3.5 py-7 ${i < 3 ? "md:border-r md:border-border" : ""}`}>
-              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent-bg text-accent">{s.icon}</span>
-              <div>
-                <p className="text-xl font-semibold text-text">{s.value}</p>
-                <p className="text-[11px] text-text-tertiary">{s.label}</p>
+            <div key={s.label} className={`flex justify-center py-7 ${i < 3 ? "md:border-r md:border-border" : ""}`}>
+              <div className="flex min-w-32 items-center gap-3.5">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent-bg text-accent">{s.icon}</span>
+                <div>
+                  <p className="text-xl font-semibold text-text">{s.value}</p>
+                  <p className="text-[11px] text-text-tertiary">{s.label}</p>
+                </div>
               </div>
             </div>
           ))}
