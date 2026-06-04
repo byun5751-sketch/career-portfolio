@@ -1,7 +1,30 @@
+import type { Metadata } from "next";
 import { ChevronRight, Lightbulb, Target, Wrench, TrendingUp, BookOpen } from "lucide-react";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
+
+const SITE_URL = "https://brasley-byun.vercel.app";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isKo = lang === "ko";
+  return {
+    title: isKo ? "프로젝트" : "Projects",
+    description: isKo
+      ? "변재일의 프로젝트 케이스 스터디. VTS 계약 프로세스 정상화, 경쟁사 인텔리전스, PR 운영, 글로벌 이벤트 등."
+      : "Project case studies by Brasley Byun. VTS contract process normalization, competitor intelligence, PR operations, global events, and more.",
+    alternates: {
+      canonical: `${SITE_URL}/${lang}/projects`,
+      languages: { en: `${SITE_URL}/en/projects`, ko: `${SITE_URL}/ko/projects` },
+    },
+    openGraph: {
+      title: isKo ? "변재일 - 프로젝트" : "Brasley Byun - Projects",
+      url: `${SITE_URL}/${lang}/projects`,
+      locale: isKo ? "ko_KR" : "en_US",
+    },
+  };
+}
 
 export default async function ProjectsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

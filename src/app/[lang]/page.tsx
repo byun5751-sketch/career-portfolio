@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import {
   Search, Settings, Users, Briefcase, BarChart3, Megaphone,
   Database, FolderKanban, ArrowRight, Building2, GraduationCap, Award,
@@ -8,6 +9,34 @@ import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
 import { ProjectCard } from "@/components/ProjectCard";
+import { JsonLd } from "@/components/JsonLd";
+
+const SITE_URL = "https://brasley-byun.vercel.app";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isKo = lang === "ko";
+  return {
+    title: isKo
+      ? "변재일 - Business Development & Operations 포트폴리오"
+      : "Brasley Byun - Business Development & Operations Portfolio",
+    description: isKo
+      ? "변재일의 커리어 포트폴리오. BIGO Live, ZEISS, SAP에서의 Business Development, Sales Operations, Marketing Operations 경험."
+      : "Career portfolio of Brasley Byun. Business Development, Sales Operations, and Marketing Operations professional with experience at BIGO Live, ZEISS, and SAP.",
+    alternates: {
+      canonical: `${SITE_URL}/${lang}`,
+      languages: { en: `${SITE_URL}/en`, ko: `${SITE_URL}/ko` },
+    },
+    openGraph: {
+      title: isKo ? "변재일 - BD & Ops 포트폴리오" : "Brasley Byun - BD & Ops Portfolio",
+      description: isKo
+        ? "Business Development, Sales Operations, Marketing Operations 전문가"
+        : "Business Development, Sales Operations, and Marketing Operations professional",
+      url: `${SITE_URL}/${lang}`,
+      locale: isKo ? "ko_KR" : "en_US",
+    },
+  };
+}
 
 const skillIcons: Record<string, React.ReactNode> = {
   "Business Development": <Briefcase size={18} />,
@@ -26,6 +55,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   return (
     <>
+      <JsonLd lang={l} />
       {/* Hero */}
       <section className="border-b border-border">
         <div className="site-shell grid items-center gap-12 pb-20 pt-20 md:grid-cols-[minmax(0,1fr)_340px] md:pt-24">
@@ -175,6 +205,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </a>
             <a href="https://www.linkedin.com/in/brasleybyun/ko/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-border bg-surface px-5 py-2.5 text-[13px] font-medium text-text hover:border-border-strong">
               {t.cta.linkedin}
+            </a>
+            <a href="https://open.kakao.com/me/JaeilByun" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-border bg-[#FEE500] px-5 py-2.5 text-[13px] font-medium text-[#191919] hover:bg-[#F5DC00]">
+              {t.cta.kakao}
             </a>
           </div>
         </div>

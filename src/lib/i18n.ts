@@ -63,6 +63,7 @@ const t = {
       desc: "Looking for Business Development, Sales Operations, or Marketing Operations talent? I'd love to hear from you.",
       email: "Send an Email",
       linkedin: "LinkedIn",
+      kakao: "KakaoTalk",
     },
     experience: {
       eyebrow: "Work Experience",
@@ -170,6 +171,7 @@ const t = {
       desc: "Business Development, Sales Operations, Marketing Operations 인재를 찾고 계신다면 편하게 연락 주세요.",
       email: "이메일 보내기",
       linkedin: "LinkedIn",
+      kakao: "카카오톡",
     },
     experience: {
       eyebrow: "경력 사항",

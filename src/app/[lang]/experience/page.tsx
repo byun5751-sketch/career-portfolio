@@ -1,7 +1,30 @@
+import type { Metadata } from "next";
 import { ChevronRight, Building2 } from "lucide-react";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
+
+const SITE_URL = "https://brasley-byun.vercel.app";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isKo = lang === "ko";
+  return {
+    title: isKo ? "경력 사항" : "Work Experience",
+    description: isKo
+      ? "변재일의 경력 사항. BIGO Live, ZEISS Vision Korea, SAP Korea에서의 Business Development 및 Operations 경험."
+      : "Work experience of Brasley Byun. Business Development and Operations roles at BIGO Live, ZEISS Vision Korea, and SAP Korea.",
+    alternates: {
+      canonical: `${SITE_URL}/${lang}/experience`,
+      languages: { en: `${SITE_URL}/en/experience`, ko: `${SITE_URL}/ko/experience` },
+    },
+    openGraph: {
+      title: isKo ? "변재일 - 경력 사항" : "Brasley Byun - Work Experience",
+      url: `${SITE_URL}/${lang}/experience`,
+      locale: isKo ? "ko_KR" : "en_US",
+    },
+  };
+}
 
 export default async function ExperiencePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

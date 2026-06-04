@@ -1,7 +1,30 @@
+import type { Metadata } from "next";
 import { GraduationCap, Trophy, Award, BadgeCheck, Star, Calendar, BookOpen, Medal } from "lucide-react";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
+
+const SITE_URL = "https://brasley-byun.vercel.app";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isKo = lang === "ko";
+  return {
+    title: isKo ? "학력" : "Education",
+    description: isKo
+      ? "변재일의 학력 사항. 중앙대학교 국제물류학과/경영학 학사, 최우등 졸업(차석), GPA 4.41/4.50."
+      : "Education of Brasley Byun. B.A. International Logistics / Business Administration at Chung-Ang University. Summa Cum Laude, Salutatorian, GPA 4.41/4.50.",
+    alternates: {
+      canonical: `${SITE_URL}/${lang}/education`,
+      languages: { en: `${SITE_URL}/en/education`, ko: `${SITE_URL}/ko/education` },
+    },
+    openGraph: {
+      title: isKo ? "변재일 - 학력" : "Brasley Byun - Education",
+      url: `${SITE_URL}/${lang}/education`,
+      locale: isKo ? "ko_KR" : "en_US",
+    },
+  };
+}
 
 export default async function EducationPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
