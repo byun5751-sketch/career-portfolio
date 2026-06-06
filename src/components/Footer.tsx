@@ -43,10 +43,19 @@ export function Footer({ lang }: { lang: Lang }) {
             </div>
             <div>
               <p className="text-[11px] font-medium uppercase tracking-widest text-text-tertiary">{t.footer.contact}</p>
-              <ul className="mt-5 space-y-3">
-                <li><a href="mailto:byunjaeil77@gmail.com" className="text-sm text-text-secondary hover:text-text">byunjaeil77@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/brasleybyun/ko/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">LinkedIn</a></li>
-                <li><a href="https://open.kakao.com/me/JaeilByun" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">KakaoTalk</a></li>
+              <ul className="mt-5 space-y-4">
+                <li>
+                  <a href="mailto:byunjaeil77@gmail.com" className="text-sm text-text-secondary hover:text-text">Email</a>
+                  <p className="mt-0.5 text-xs text-text-tertiary">byunjaeil77@gmail.com</p>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/brasleybyun/" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">LinkedIn</a>
+                  <p className="mt-0.5 text-xs text-text-tertiary">linkedin.com/in/brasleybyun</p>
+                </li>
+                <li>
+                  <a href="https://open.kakao.com/me/JaeilByun" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-text">KakaoTalk</a>
+                  <p className="mt-0.5 text-xs text-text-tertiary">open.kakao.com/me/JaeilByun</p>
+                </li>
               </ul>
             </div>
           </div>
