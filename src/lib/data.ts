@@ -26,7 +26,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "BIGO Live",
-    companyDesc: "World's largest independent live-streaming platform with 700M+ users across 150+ countries",
+    companyDesc: "Independent live-streaming platform with 700M+ users across 150+ countries",
     role: "Business Development",
     period: "2026.04 ~ Present",
     description:

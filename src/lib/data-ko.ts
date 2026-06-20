@@ -3,7 +3,7 @@ import type { Experience, Project } from "./data";
 export const experiencesKo: Experience[] = [
   {
     company: "BIGO Live",
-    companyDesc: "전 세계 150개국, 7억 명 이상이 사용하는 글로벌 1위 독립 라이브 스트리밍 플랫폼",
+    companyDesc: "전 세계 150개국, 7억 명 이상이 사용하는 독립 라이브 스트리밍 플랫폼",
     role: "Business Development",
     period: "2026.04 ~ 현재",
     description:
