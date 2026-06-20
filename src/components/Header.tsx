@@ -11,7 +11,6 @@ export function Header({ lang }: { lang: Lang }) {
   const t = getTranslations(lang);
   const otherLang = lang === "en" ? "ko" : "en";
   const switchPath = pathname.replace(`/${lang}`, `/${otherLang}`);
-  const currentLangLabel = lang === "ko" ? "한국어" : "EN";
 
   const links = [
     { href: `/${lang}`, label: t.nav.home },
@@ -51,14 +50,22 @@ export function Header({ lang }: { lang: Lang }) {
         </ul>
 
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-          <Link
-            href={switchPath}
-            aria-label={lang === "ko" ? "Switch to English" : "한국어로 보기"}
-            className="flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-xs text-text-secondary transition-colors hover:bg-surface-warm hover:text-text"
-          >
-            <Globe size={13} />
-            {currentLangLabel}
-          </Link>
+          <div className="flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-xs">
+            <Globe size={13} className="text-text-secondary" />
+            {lang === "ko" ? (
+              <>
+                <span className="font-medium text-text">한국어</span>
+                <span className="text-text-tertiary">/</span>
+                <Link href={switchPath} className="text-text-secondary transition-colors hover:text-text">English</Link>
+              </>
+            ) : (
+              <>
+                <Link href={switchPath} className="text-text-secondary transition-colors hover:text-text">한국어</Link>
+                <span className="text-text-tertiary">/</span>
+                <span className="font-medium text-text">English</span>
+              </>
+            )}
+          </div>
           <a
             href="#contact"
             className="rounded-full bg-highlight px-4 py-1.5 text-[13px] font-medium text-white transition-colors hover:bg-text"

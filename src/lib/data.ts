@@ -15,6 +15,7 @@ export type Project = {
 
 export type Experience = {
   company: string;
+  companyDesc: string;
   role: string;
   period: string;
   description: string;
@@ -25,6 +26,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "BIGO Live",
+    companyDesc: "World's largest independent live-streaming platform with 700M+ users across 150+ countries",
     role: "Business Development",
     period: "2026.04 ~ Present",
     description:
@@ -40,6 +42,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "ZEISS Vision Korea",
+    companyDesc: "Global optics leader since 1846 — maker of lenses for NASA, TSMC, and half the world's eyewear",
     role: "Sales & Marketing Associate",
     period: "2025.02 ~ 2026.03",
     description:
@@ -60,6 +63,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "SAP Korea",
+    companyDesc: "World's #1 enterprise software company — 77% of global transaction revenue touches an SAP system",
     role: "STAR Program Intern",
     period: "2023.07 ~ 2024.12",
     description:

@@ -51,7 +51,8 @@ export default async function ExperiencePage({ params }: { params: Promise<{ lan
                     </span>
                     <div>
                       <h2 className="font-serif text-xl text-text">{exp.company}</h2>
-                      <p className="mt-0.5 text-[13px] text-accent">{exp.role}</p>
+                      <p className="mt-0.5 text-[11px] leading-snug text-text-tertiary">{exp.companyDesc}</p>
+                      <p className="mt-1 text-[13px] text-accent">{exp.role}</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2.5">

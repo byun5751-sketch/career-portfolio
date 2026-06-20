@@ -1,6 +1,6 @@
 export type Lang = "en" | "ko";
 export const locales: Lang[] = ["en", "ko"];
-export const defaultLocale: Lang = "en";
+export const defaultLocale: Lang = "ko";
 
 const t = {
   en: {

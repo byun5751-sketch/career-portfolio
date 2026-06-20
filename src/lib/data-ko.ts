@@ -3,6 +3,7 @@ import type { Experience, Project } from "./data";
 export const experiencesKo: Experience[] = [
   {
     company: "BIGO Live",
+    companyDesc: "전 세계 150개국, 7억 명 이상이 사용하는 글로벌 1위 독립 라이브 스트리밍 플랫폼",
     role: "Business Development",
     period: "2026.04 ~ 현재",
     description:
@@ -18,6 +19,7 @@ export const experiencesKo: Experience[] = [
   },
   {
     company: "ZEISS Vision Korea",
+    companyDesc: "1846년 설립, NASA·TSMC·세계 안경 렌즈 시장을 지배하는 글로벌 광학 리더",
     role: "Sales & Marketing Associate",
     period: "2025.02 ~ 2026.03",
     description:
@@ -38,6 +40,7 @@ export const experiencesKo: Experience[] = [
   },
   {
     company: "SAP Korea",
+    companyDesc: "전 세계 거래 매출의 77%가 거치는 글로벌 1위 기업용 소프트웨어 기업",
     role: "STAR Program Intern",
     period: "2023.07 ~ 2024.12",
     description:
