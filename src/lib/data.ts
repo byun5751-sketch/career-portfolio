@@ -762,12 +762,12 @@ export const projects: Project[] = [
       "Raised town-hall & internal campaign engagement",
     ],
     context:
-      "Amid a leadership transition (Partner departure: Gujin → acting Ryu Mihyun → new Partner Eunice), acted as Chief of Staff (CoS) to keep the organization steady. At the same time, multitasking was required to flawlessly deliver both a major event (global CEO visit) and daily routines (internal wellness/admin).",
+      "Amid a leadership transition (former Partner → acting lead → new Partner), acted as Chief of Staff (CoS) to keep the organization steady. At the same time, multitasking was required to flawlessly deliver both a major event (global CEO visit) and daily routines (internal wellness/admin).",
     problem:
       "During the 3-month CoS vacancy across three reporting-line changes, business continuity had to be preserved while flawlessly executing protocol for a visit by top-tier global executives.",
     actions: [
-      "During the visit of Paul Marriott (APJ CEO) and Muhammad Alam (CPO), coordinated senior meetings with Korea's top-4 groups (Samsung/SK/LG/KT) from a deal-closing lens and ran CxO roundtables and press interviews",
-      "Perfectly handed over work history and defended against secretarial gaps despite three reporting-line changes (Mary → Ryu Mihyun → Eunice) during the CoS vacancy",
+      "During the APJ CEO and CPO visit, coordinated senior meetings with Korea's top-4 groups (Samsung/SK/LG/KT) from a deal-closing lens and ran CxO roundtables and press interviews",
+      "Perfectly handed over work history and defended against secretarial gaps despite three reporting-line changes (former lead → acting lead → new Partner) during the CoS vacancy",
       "Systematized the JTDS governance (schedule/email/minutes) and ran internal wellness/admin routines without interruption",
       "Planned the Q3 town-hall '2 Minutes to Win' pitch and led the 'Nice with SAP' TF (Mural) campaign to spread a flat title culture ('-nim')",
     ],
@@ -838,7 +838,7 @@ export const projects: Project[] = [
     problem:
       "Within an extremely short lead time, global collaboration barriers, and unpredictable variables, both event success and employee experience had to be secured.",
     actions: [
-      "Built a real-time hotline to overcome time-zone/communication delays with the German HQ and club, emergency-setting up VIP protocol vehicles and routes for Joshua Kimmich and others within 2 weeks",
+      "Built a real-time hotline to overcome time-zone/communication delays with the German HQ and club, emergency-setting up VIP protocol vehicles and routes for the club's key players within 2 weeks",
       "Tracked 80 people's health data over 100 days to catch drop-off signals, filmed encouragement videos with an executive and reinforced incentives to drive completion",
       "Proposed a 'Black-and-White Singer' concept parodying the then-trending 'Culinary Class Wars', planning the cue sheet and stage direction to maximize employee immersion",
       "When the 'White Spoon' team no-showed on the day of the year-end event, immediately reported to the Partner to secure decision-making golden time and supported activating the backup plan",
@@ -925,6 +925,329 @@ export const projects: Project[] = [
     ],
     learning:
       "In a crisis, the priority is redesigning a winning structure with remaining resources rather than lamenting what is lost. Persuasion comes from the precision of logic and strength of evidence, not volume of voice.",
+  },
+  {
+    slug: "cau-admissions-advisory",
+    title: "Admissions Advisory: Guidebook Planning & Mock Interviews",
+    company: "Chung-Ang University",
+    category: "Extracurricular",
+    period: "2019.03 ~ 2019.07",
+    skills: [
+      "Content Planning",
+      "Stakeholder Persuasion",
+      "Guidebook Authoring",
+      "Mock Interview Simulation",
+      "Process Improvement",
+    ],
+    impact: [
+      "Adopted into the official guidebook",
+      "Distributed to high schools & fairs nationwide",
+      "Contributed to evaluator calibration",
+    ],
+    context:
+      "As a member of the admissions advisory group, planned an acceptance-strategy guidebook and supported admissions officer mock-interview calibration, amid the information asymmetry created by a policy change (abolishing interviews).",
+    problem:
+      "The change increased applicant anxiety. Content conveying real acceptance logic (not mere PR) and a reference to narrow evaluator scoring gaps were needed.",
+    actions: [
+      "Analyzed the change's psychological impact on applicants, defined the problem as an 'information gap', and set a consumer-centric direction",
+      "Argued the need for qualitative evaluation guidelines based on my own acceptance case (data) and proposed an official guidebook contribution to the admissions office",
+      "Structured a 'major-fit appeal strategy' and wrote/reviewed the draft with a framework turning weaknesses into strengths",
+      "Reproduced top students' reasoning patterns in blind mock interviews to demonstrate handling of pressure/dilemma questions, and fed back blind spots in the evaluation criteria during debriefs",
+    ],
+    results: [
+      "Won approval from a conservative admissions office; the draft was included in the official guidebook and distributed to high schools and fairs nationwide",
+      "Reached thousands of prospective applicants, raising the university's admissions-administration image and defending application rates",
+      "Helped narrow evaluator perspective gaps (calibration) and secure fairness and reliability",
+    ],
+    learning:
+      "Policy must define problems from the consumer's perspective, not the provider's, and even conservative decision-makers move when persuaded with concrete cases and data rather than subjective opinion.",
+  },
+  {
+    slug: "cau-hospital-volunteer",
+    title: "University Hospital Dialysis Volunteering & Pre-diagnosis Data",
+    company: "Chung-Ang University",
+    category: "Volunteering",
+    period: "2019.03 ~ 2019.06",
+    skills: [
+      "Infection Control Protocol",
+      "Patient Support",
+      "Vital Data Measurement",
+      "Workflow Improvement",
+      "Accuracy/Reporting",
+    ],
+    impact: [
+      "Minimized secondary-infection risk",
+      "Ensured pre-diagnosis data accuracy",
+      "Shortened diagnosis prep lead time",
+    ],
+    context:
+      "Long-term dialysis patients are sensitive to infection risk and endure extreme treatment fatigue, so beyond medical staff's physical care, supporting resources for emotional stability and environmental comfort were essential.",
+    problem:
+      "In-hospital infection risk and treatment stress for immunocompromised patients had to be reduced, and pre-diagnosis baseline data measured accurately to shorten medical staff workflow.",
+    actions: [
+      "Replaced bed sheets and gauze per infection-prevention protocol and preemptively blocked contaminants to minimize secondary-infection risk",
+      "Relieved pain from prolonged immobility with foot massage and built rapport to reduce treatment aversion and stress",
+      "Measured body metrics and vitals (blood pressure, etc.) with a double-check process to ensure data integrity",
+      "Organized patient waiting flow and reported only key information on abnormal signs to enable fast action",
+    ],
+    results: [
+      "Removed in-hospital infection risk factors for immunocompromised patients and maintained a comfortable inpatient environment",
+      "Provided reliable baseline data ensuring diagnostic accuracy/safety and early detection of abnormalities",
+      "Shortened diagnosis prep time, increasing patients seen per unit time and reducing wait complaints",
+    ],
+    learning:
+      "Non-verbal communication and human touch are powerful means of earning trust, and a small numerical error can lead to a diagnostic error, so detail and well-timed reporting matter.",
+  },
+  {
+    slug: "gangdong-career-instructor",
+    title: "Youth Major/Career Exploration Program Planning & Teaching",
+    company: "Gangdong-gu",
+    category: "Education/Teaching",
+    period: "2022.05 ~ 2022.12",
+    skills: [
+      "Target Segmentation",
+      "Curriculum Development",
+      "Facilitation",
+      "Deck Design",
+      "Social Impact",
+    ],
+    impact: [
+      "Completed 100% of programs across 7 Gangdong schools",
+      "Developed target-tailored curriculum",
+      "Contributed to closing the education gap",
+    ],
+    context:
+      "Planned and taught a major/career exploration program for local youth, treating them not as one group but segmenting into middle schoolers (interest exploration) and high schoolers (real admissions strategy).",
+    problem:
+      "Students in an education-infrastructure-poor area needed the information they actually required at their level, not what the provider wanted to give.",
+    actions: [
+      "Analyzed core needs by middle/high segment and reset education goals",
+      "Produced differentiated decks applying 'Gamification & Interest' for middle schoolers and 'Realistic Roadmap & Data' for high schoolers",
+      "Moved beyond one-way lectures to strengthen Q&A/mentoring sessions, facilitating to surface latent concerns through two-way communication",
+      "Provided emotional support as a mentor and flexibly handled on-site impromptu questions",
+    ],
+    results: [
+      "Completed 100% of education and programs across 7 schools in Gangdong (5 middle, 2 high)",
+      "Secured qualitative feedback ('I could draw a concrete picture') and high satisfaction with dense, zero-dropout sessions",
+      "Closed the local education gap and raised the institution's image as a supplement to public education",
+    ],
+    learning:
+      "The same material requires a different value proposition depending on the target, and I internalized the efficacy of personal talent contributing to social problems and a customer-centric mindset.",
+  },
+  {
+    slug: "gwnu-gifted-instructor",
+    title: "Gifted-Education SQ3R/Debate Online Transition & Curriculum Upgrade",
+    company: "Gangneung-Wonju National University",
+    category: "Education/Teaching",
+    period: "2019.08 ~ 2023.07",
+    skills: [
+      "Instructional Design (ADDIE)",
+      "Micro-learning Design",
+      "In-house Video Production",
+      "Data-driven Improvement",
+      "Long-term Contract Management",
+    ],
+    impact: [
+      "4 years (8+ semesters) of consecutive contracts",
+      "Built an offline→online standard curriculum",
+      "In-house production pipeline, no outsourcing",
+    ],
+    context:
+      "While teaching SQ3R/debate to gifted students, recognized the scalability limits of offline education and transitioned to a scalable digital content format.",
+    problem:
+      "High learning demand was hard to meet offline alone, and without dedicated video staff or budget, a scalable online asset and continuous QA were needed.",
+    actions: [
+      "Restructured 120 minutes of content into 6 online modules and applied micro-learning design for short attention spans",
+      "Self-taught PPT recording/editing tools to build an in-house production pipeline with no outsourcing cost, permanently assetizing one-off lectures as video content",
+      "Analyzed post-lecture quantitative satisfaction and qualitative comments ('requests for deeper debate') to find the hidden need was 'practical application'",
+      "Pivoted the curriculum to substantially deep-dive the 'debate methodology' session based on the analysis",
+    ],
+    results: [
+      "Established an engaging online standard curriculum preventing learner drop-off and an always-on learning system free of time/space constraints",
+      "Produced high-quality lecture videos in-house, cutting budget and production time while securing scalability",
+      "Earned institution/student trust through continuous QA, winning 4 years (8+ semesters) of consecutive contract renewals and positioning as a core instructor",
+    ],
+    learning:
+      "I understood the information-density difference when moving offline experience to online UX, that fast execution and iteration (agile) beat a perfect plan, and that trust proven by diligence and results is the core of long-term relationships (LTV).",
+  },
+  {
+    slug: "cau-dormitory-leader",
+    title: "Dormitory Floor Leader: Move-in Process & Relief-supply Distribution",
+    company: "Chung-Ang University",
+    category: "Extracurricular",
+    period: "2023.07 ~ 2024.06",
+    skills: [
+      "Bottleneck Analysis",
+      "Process Redesign",
+      "Hygiene/Safety Audit",
+      "Inventory/Last-mile Distribution",
+      "Preventive Management",
+    ],
+    impact: [
+      "Move-in time per person cut 30%",
+      "10,000 masks to 130 people, zero misdelivery",
+      "Established a shared-space hygiene audit",
+    ],
+    context:
+      "With 130 people moving in simultaneously at peak times, on-site paperwork and verification caused severe bottlenecks, on top of managing shared-space contamination and COVID relief-supply distribution.",
+    problem:
+      "Increased wait times drove student complaints and admin inefficiency, the 'tragedy of the commons' (shared-space contamination) arose, and masks had to be distributed at scale with zero omission or misdelivery.",
+    actions: [
+      "Decomposed the move-in procedure to prove 'on-site paperwork/duplicate checks' took 60%+ of the time, then dispersed on-site work via an online pre-submission guide",
+      "Redesigned the submit-key-guide flow as one-way and removed unnecessary duplicate checks",
+      "Concretized cleanliness standards (e.g., fridge food expiry labeling), set biweekly/monthly inspection cycles and checklists for a hygiene audit, and ran full asset inspections on move-out",
+      "Cross-checked 10,000 masks against the resident roster to pre-verify quantities and distributed via pickup (pull) with signatures instead of door-to-door (push)",
+    ],
+    results: [
+      "Cut per-person move-in time 30% and zeroed move-in-day congestion, improving the experience",
+      "Reduced shared-space contamination and raised residential satisfaction through regular audits while cutting facility maintenance cost",
+      "Completed distribution to all 130 people with zero loss/omission by reconciling signatures against remaining stock",
+    ],
+    learning:
+      "I internalized breaking phenomena into process units to find root causes, managing behavior through systems and rules rather than willpower, and that data verification at the planning stage is 80% of success.",
+  },
+  {
+    slug: "cau-logistics-security-program",
+    title: "Logistics Security Program: SCM Solution & ETA Prediction Model",
+    company: "Chung-Ang University",
+    category: "Academic Project",
+    period: "2022.07 ~ 2022.12",
+    skills: [
+      "SCM Solution (Cello)",
+      "Field Logistics Analysis",
+      "Data Preprocessing",
+      "ML Modeling",
+      "Business Insight",
+    ],
+    impact: [
+      "Simulated order-transport-settlement end to end",
+      "Verified Pyeongtaek Port field processes",
+      "Meaningfully reduced ETA model error",
+    ],
+    context:
+      "To respond to the Logistics 4.0 shift, operated Samsung SDS's integrated logistics platform 'Cello', verified port logistics processes, and joined a hackathon to build a data-driven ETA (arrival time) prediction model.",
+    problem:
+      "The gap between integrated-solution proficiency and field operations had to be narrowed, and amid global supply-chain uncertainty, data-based ETA prediction (not intuition) was required.",
+    actions: [
+      "Simulated the full order-transport-settlement flow in 'Cello', practicing how supply-chain visibility is central to risk management",
+      "Tracked container unloading/storage/in-out processes via a Pyeongtaek Port field visit and verified synchronization between system data and physical flow",
+      "Collected and cleaned multi-dimensional variables (vessel position, weather, port congestion), imputing missing values and extracting key features via correlation analysis",
+      "Built a prediction model applying Random Forest, XGBoost, etc., and tuned hyperparameters to minimize RMSE",
+    ],
+    results: [
+      "Pre-learned ERP/TMS UI/UX and logic for immediately deployable baseline skills and a whole-flow perspective",
+      "Raised field understanding by identifying gaps between theoretical models and physical field constraints",
+      "Derived a model meaningfully reducing prediction error vs. moving averages and wrote a results report from an SCM efficiency perspective",
+    ],
+    learning:
+      "Data analysis ignorant of the field is hollow, prediction accuracy comes from quality data and feature selection more than algorithms, and the ultimate goal of analysis is decision support.",
+  },
+  {
+    slug: "cau-intl-student-ambassador",
+    title: "International Student Ambassador: Space Expansion & Channel Unification",
+    company: "Chung-Ang University",
+    category: "Extracurricular",
+    period: "2023.07 ~ 2024.06",
+    skills: [
+      "Quantitative VOC Analysis",
+      "Proposal & Negotiation",
+      "Channel Consolidation",
+      "Content Curation",
+      "Cross-cultural Facilitation",
+    ],
+    impact: [
+      "Approved 2x expansion of the exchange space (GCC)",
+      "Unified 1,500-person channel to KakaoTalk",
+      "12 card-news posts featured as popular",
+    ],
+    context:
+      "To improve exchange students' stay, had to solve the cramped exchange space (GCC) and fragmented communication channels, and raise SNS traffic to lift offline event participation.",
+    problem:
+      "Space shortage and channel fragmentation lowered both student satisfaction and admin efficiency, while provider-centric information kept SNS traffic and event participation in a vicious cycle.",
+    actions: [
+      "Quantified 'the impact of space shortage on exchange' via survey to prove the need with objective data, and persuaded the international office (budget holder) with a proposal of expected effects",
+      "Consolidated fragmented communication for 1,500 people into KakaoTalk and automated repeat inquiries with an FAQ system",
+      "Analyzed target (international student) interests (K-Culture, restaurants) to make informational card-news and shifted posting to prime time",
+      "As a global seminar moderator, lowered language/culture barriers with icebreaking and plain terms to drive networking",
+    ],
+    results: [
+      "Approved and executed a 2x GCC expansion, markedly improving exchange students' stay satisfaction",
+      "Shortened notice reach time and cut repetitive work, with 12 card-news posts featured, boosting channel inflow and offline conversion",
+      "Completed events where real networking happened across language/cultural barriers",
+    ],
+    learning:
+      "What moves an organization is objective data and justification, not emotional appeal; Win-Win negotiation aligns the counterpart's needs with mine; and managing large groups requires systems, not individual responses.",
+  },
+  {
+    slug: "cau-intl-logistics-club",
+    title: "Intl Logistics Club: China Air Logistics Outlook & SCM Failure Study",
+    company: "Chung-Ang University",
+    category: "Academic Project",
+    period: "2019.03 ~ 2019.06",
+    skills: [
+      "Market Intelligence",
+      "Macro Analysis (PEST)",
+      "Risk Management",
+      "Case Study",
+      "Logical Presentation",
+    ],
+    impact: [
+      "Identified policy-to-market-restructuring mechanism",
+      "Derived SCM resilience CSFs",
+      "Presented research at a seminar",
+    ],
+    context:
+      "Needed to understand how a fast-changing e-commerce environment and country-specific regulations affect logistics firms' market dominance, and to build strategic insight for global supply-chain crisis scenarios.",
+    problem:
+      "Beyond surface observation, the mechanism by which policy variables restructure markets and the disconnection risk from maximizing efficiency had to be identified.",
+    actions: [
+      "Analyzed the correlation between rising cross-border demand in China, government regulation, and SF Express's monopolization",
+      "Derived the outlook that 3PL partnerships and SCM innovation would offset high-cost structures and raise market attractiveness",
+      "Reverse-traced Toyota's SCM failure (limits of JIT) to derive flexibility and visibility as crisis-time critical success factors",
+      "Presented and discussed findings at a club seminar and reinforced logic with multi-perspective feedback",
+    ],
+    results: [
+      "Cultivated a macro lens for how PEST factors ripple into corporate strategy",
+      "Studied resilience measures via learning-from-failure to prevent future risk",
+      "Strengthened presentation skills by structuring complex logistics issues clearly",
+    ],
+    learning:
+      "I cultivated a lens for how macro-environmental factors ripple into corporate strategy and the case-study ability to prevent future risk from past failures.",
+  },
+  {
+    slug: "vim-investment-club",
+    title: "VIM Investment Society Co-founding & Portfolio Research",
+    company: "Chung-Ang University",
+    category: "Extracurricular",
+    period: "2019.07 ~ 2020.02",
+    skills: [
+      "Organization Building (0 to 1)",
+      "Financial Statement Analysis",
+      "Quant Screening",
+      "Digital Asset Research",
+      "Leadership",
+    ],
+    impact: [
+      "Co-founded an investment society",
+      "Planned a regular study curriculum",
+      "Meaningful ROI via data-driven trading",
+    ],
+    context:
+      "Co-founded a finance/investment society (VIM) and researched crypto/stock portfolio operation strategies.",
+    problem:
+      "A sustainable learning organization had to be built from scratch, and investment principles based on data and criteria (not emotion) established.",
+    actions: [
+      "Co-founded the society, enacted operating bylaws, planned a regular study curriculum, and recruited members (0 to 1)",
+      "Researched crypto's technical traits (blockchain) and market dynamics (volatility) to establish a risk-management approach of investing, not speculating",
+      "Discovered undervalued quality stocks via fundamental analysis and quant screening, establishing and validating trading principles",
+    ],
+    results: [
+      "Laid the foundation for a sustainable learning organization and a financial-knowledge sharing platform",
+      "Recorded meaningful ROI through strategic trading, proving the validity of the analysis model",
+      "Understood the difference between traditional finance and fintech assets and secured digital-asset ecosystem knowledge",
+    ],
+    learning:
+      "I strengthened the entrepreneurial execution to define problems and build an organization to solve them, plus the financial insight to read corporate value behind the numbers and data-driven decision-making.",
   },
 ];
 
