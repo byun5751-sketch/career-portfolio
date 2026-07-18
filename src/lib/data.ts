@@ -238,6 +238,44 @@ export const projects: Project[] = [
       "Meeting notes are not records of the past but tools that create future action. Good notes don't contain more information; they make it clear what needs to happen next.",
   },
   {
+    slug: "zeiss-legacy-web-integration",
+    title: "Legacy Website Integration & Azure Cloud Migration",
+    company: "ZEISS Vision Korea",
+    category: "Project Management",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "UI/UX Planning",
+      "Wireframing (Figma/Axure)",
+      "Tech-Biz Bridge",
+      "API Integration QA",
+      "Cloud Migration",
+    ],
+    impact: [
+      "Consolidated 3 fragmented sites into 2",
+      "80% of maintenance requests handled within a week",
+      "Marketing material order time cut by 50%",
+    ],
+    context:
+      "Three legacy websites (BestVC, CZV.KR, CZV.co.kr) were operated in a fragmented way, driving up maintenance costs and scattering sales reps' workflows. At the same time, compliance with global security guidelines (Azure Compliance) became a requirement.",
+    problem:
+      "Managing three separate sites duplicated maintenance resources and forced sales reps to move across different sites for each task. As a non-developer planner, I needed to draw a clear blueprint bridging marketing's abstract requirements and the development team's implementation.",
+    actions: [
+      "Collected the marketing team's abstract pain points (VoC) and turned them into a concrete planning deck (PPT) for frontend/backend UI improvements",
+      "Produced wireframes in Figma/Axure and proposed an architecture integrating the order process with POS functionality",
+      "Acted as a Tech-Biz Bridge, translating marketing requirements into technical terms developers could understand",
+      "Coordinated feasibility upfront and served as the mediator who finalized the spec",
+      "Proposed API-based automation (RPA) for the manual marketing material order process and ran QA testing",
+      "Reviewed global security guideline compliance throughout the Azure cloud migration",
+    ],
+    results: [
+      "Consolidated 3 fragmented sites into 2, removing operational complexity and improving the sales rep experience",
+      "Minimized miscommunication between planning and development so that 80% of maintenance requests were handled within a week",
+      "Migrated repetitive manual work to systems, reducing sales admin work by 30% and cutting marketing material order time by 50%",
+    ],
+    learning:
+      "Good planning means drawing a clear blueprint so developers can code without second-guessing. When a non-developer collaborates with engineers, persuading them on 'why' matters more than dictating 'what', and true DX is not about swapping tools but about letting systems do the work people used to do.",
+  },
+  {
     slug: "sap-customer-advisory",
     title: "Customer Advisory Reference Analysis",
     company: "SAP Korea",
