@@ -319,7 +319,7 @@ export const projectsKo: Project[] = [
       "파편화된 포인트 시스템에서 오적립과 세무 리스크가 발생할 수 있었고, 높은 입퇴사율로 인한 지식 공백이 반복되었습니다.",
     actions: [
       "대량 업로드 오류 경험을 반면교사 삼아 데이터 업로드 전 가검증(Pre-validation) 프로세스를 도입하고 적립 기준 가이드라인을 명문화해 배포",
-      "'프로젝트 도토리'(포인트 개편) 진행 시 Trade Marketing Manager에게 복잡한 포인트 로직과 히스토리를 역설명(Reverse Mentoring)하며 자문",
+      "'프로젝트 OOO'(포인트 개편) 진행 시 Trade Marketing Manager에게 복잡한 포인트 로직과 히스토리를 역설명(Reverse Mentoring)하며 자문",
       "전산 매칭 오류 발생 시 5개 카테고리(적립/사용/취소 등)별 전수 재검증(Reconciliation)으로 회계장부와 실제 데이터의 일치성 확보",
       "높은 입퇴사율에 대비해 신규 입사자 및 유관부서에 포인트 운영 원리를 전파하는 교육(Onboarding) 전담",
     ],
@@ -465,7 +465,7 @@ export const projectsKo: Project[] = [
     category: "Digital Supply Chain",
     period: "2024.01 ~ 2024.06",
     skills: ["콘텐츠 현지화/자막", "이벤트 운영", "파트너 이네이블먼트", "세일즈 운영", "온보딩 자산화"],
-    impact: ["LinkedIn 조회수 2,000+", "행사 유효 리드 300명", "파트너 교육 만족도 4.3/5.0", "동국시스템즈 신규 파트너십 기여"],
+    impact: ["LinkedIn 조회수 2,000+", "행사 유효 리드 300명", "파트너 교육 만족도 4.3/5.0", "OO 시스템즈 신규 파트너십 기여"],
     context:
       "SAP Korea Digital Supply Chain 조직에서 글로벌 기술 자산을 국내 고객과 파트너에게 전달하기 위한 현지화, 이벤트 운영, 파트너 교육 지원 업무를 수행했습니다.",
     problem:
@@ -479,7 +479,7 @@ export const projectsKo: Project[] = [
     ],
     results: [
       "LinkedIn 콘텐츠 조회수 2,000회 이상 및 행사 등록자 300명의 유효 리드 발굴",
-      "동국시스템즈 신규 파트너십 계약 체결에 기여하고 부산/대구 지방 거점 세일즈 파이프라인 확보",
+      "OO 시스템즈 신규 파트너십 계약 체결에 기여하고 부산/대구 지방 거점 세일즈 파이프라인 확보",
       "파트너 교육 만족도 4.3/5.0 달성 및 파트너사의 솔루션 제안 역량 제고",
       "신규 입사자 업무 적응과 인수인계 효율을 높이는 온보딩 가이드 제작 및 대규모 비대면 부트캠프 무사고 운영",
     ],
@@ -567,8 +567,8 @@ export const projectsKo: Project[] = [
     context: "연간 8만 유로(약 1.2억 원) 규모의 CSR 예산 집행과 5대 핵심 프로젝트(봉사/교육/캠페인)를 End-to-End로 관리했습니다. 전임 파트너 퇴사로 상반기 CSR 활동이 전무했던 공백기에, 하반기에 예산 소진과 성과 창출을 동시에 달성해야 했습니다.",
     problem: "CEO의 긴급 지시(Ad-hoc)로 준비되지 않은 벽화 봉사를 성공시켜야 했고, 기존 CSR의 낮은 참여율을 개선해야 했습니다. 단순 실행이 아닌 '전략적 포트폴리오(Fun, Meaning, Growth)' 접근이 필요했습니다.",
     actions: [
-      "SAP Concur·Ariba로 8만 유로 예산의 기안·승인·집행 전 과정을 운용하고 파트너사(JA Korea 등) SOW를 검토해 계약 리스크 사전 차단",
-      "CEO의 갑작스러운 벽화 봉사 지시에 JA Korea와 즉각 협력해 매봉초등학교 섭외 및 현장 로지스틱스(버스/안전/식사)를 2주 내 셋업",
+      "SAP Concur·Ariba로 8만 유로 예산의 기안·승인·집행 전 과정을 운용하고 파트너사(글로벌 봉사 NGO 등) SOW를 검토해 계약 리스크 사전 차단",
+      "CEO의 갑작스러운 벽화 봉사 지시에 글로벌 봉사 NGO와 즉각 협력해 인근 초등학교 섭외 및 현장 로지스틱스(버스/안전/식사)를 2주 내 셋업",
       "참여 저조를 개선하기 위해 'My Sustainability Type'(MBTI 컨셉) 참여형 부스를 기획해 진입 장벽을 낮춤",
       "플로깅과 피크닉을 결합하고 멘토십/북클럽(120명)을 운영해 CSR을 '봉사'가 아닌 조직문화·성장 영역으로 확장",
     ],
@@ -606,7 +606,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-logistics-innovation",
     title: "친환경 물류 혁신 아이디어 공모전",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "학술 프로젝트",
     period: "2021.12",
     skills: ["시장 분석", "친환경 물류", "ESG 전략", "사업 기획", "문제 해결"],
@@ -630,7 +630,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-debate-competition",
     title: "독서토론대회",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "학술 프로젝트",
     period: "2019.05",
     skills: ["비판적 사고", "설득적 커뮤니케이션", "위기 관리", "논리적 추론", "팀워크"],
@@ -654,7 +654,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-admissions-advisory",
     title: "학생부종합전형 자문단 가이드북 기획 및 모의면접",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "대외활동",
     period: "2019.03 ~ 2019.07",
     skills: ["콘텐츠 기획", "이해관계자 설득", "가이드북 집필", "모의면접 시뮬레이션", "프로세스 개선"],
@@ -677,7 +677,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-hospital-volunteer",
     title: "대학병원 투석실 봉사 및 진료 전 데이터 측정 지원",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "봉사활동",
     period: "2019.03 ~ 2019.06",
     skills: ["감염관리 프로토콜", "환자 응대(CS)", "바이탈 데이터 측정", "워크플로우 개선", "정확성/보고"],
@@ -700,7 +700,7 @@ export const projectsKo: Project[] = [
   {
     slug: "gangdong-career-instructor",
     title: "청소년 전공·진로탐험 프로그램 기획 및 강의",
-    company: "강동구",
+    company: "중앙대학교 대외활동",
     category: "교육/강의",
     period: "2022.05 ~ 2022.12",
     skills: ["타겟 세그먼트 분석", "커리큘럼 개발", "퍼실리테이션", "교안 디자인", "사회적 임팩트"],
@@ -723,7 +723,7 @@ export const projectsKo: Project[] = [
   {
     slug: "gwnu-gifted-instructor",
     title: "영재교육원 SQ3R/토론 강의 온라인 전환 및 커리큘럼 고도화",
-    company: "강릉원주대학교",
+    company: "중앙대학교 대외활동",
     category: "교육/강의",
     period: "2019.08 ~ 2023.07",
     skills: ["교수설계(ADDIE)", "마이크로러닝 설계", "영상 제작(자체)", "데이터 기반 개선", "장기 계약 관리"],
@@ -746,7 +746,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-dormitory-leader",
     title: "기숙사 층장: 입사 프로세스 개선 및 방역 물자 배포",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "대외활동",
     period: "2023.07 ~ 2024.06",
     skills: ["병목 분석", "프로세스 재설계", "위생·안전 감사", "재고/라스트마일 배포", "예방적 관리"],
@@ -769,7 +769,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-logistics-security-program",
     title: "물류융합보안양성사업단: SCM 솔루션 운용 및 ETA 예측 모델",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "학술 프로젝트",
     period: "2022.07 ~ 2022.12",
     skills: ["SCM 솔루션(Cello)", "현장 물류 분석", "데이터 전처리", "머신러닝 모델링", "비즈니스 인사이트"],
@@ -792,7 +792,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-intl-student-ambassador",
     title: "국제학생대사: 교류 공간 확장 협상 및 소통 채널 단일화",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "대외활동",
     period: "2023.07 ~ 2024.06",
     skills: ["VOC 정량 분석", "제안·협상", "채널 통합 운영", "콘텐츠 큐레이션", "이문화 퍼실리테이션"],
@@ -815,7 +815,7 @@ export const projectsKo: Project[] = [
   {
     slug: "cau-intl-logistics-club",
     title: "국제물류연구회: 중국 항공물류 전망 및 SCM 실패 사례 연구",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "학술 프로젝트",
     period: "2019.03 ~ 2019.06",
     skills: ["시장 인텔리전스", "거시 분석(PEST)", "리스크 관리", "케이스 스터디", "논리적 발표"],
@@ -838,7 +838,7 @@ export const projectsKo: Project[] = [
   {
     slug: "vim-investment-club",
     title: "VIM 투자학회 공동 설립 및 포트폴리오 운용 연구",
-    company: "중앙대학교",
+    company: "중앙대학교 대외활동",
     category: "대외활동",
     period: "2019.07 ~ 2020.02",
     skills: ["조직 설립(0 to 1)", "재무제표 분석", "퀀트 스크리닝", "디지털 자산 리서치", "리더십"],

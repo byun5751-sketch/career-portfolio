@@ -442,7 +442,7 @@ export const projects: Project[] = [
       "The fragmented point systems risked misaccrual and tax exposure, and high turnover created recurring knowledge gaps.",
     actions: [
       "Learning from a bulk-upload error, introduced a pre-validation process before data upload and documented/distributed accrual criteria guidelines",
-      "During 'Project Dotori' (points overhaul), reverse-mentored the Trade Marketing Manager on the complex point logic and history so the new policy was realistically implementable",
+      "During 'Project OOO' (points overhaul), reverse-mentored the Trade Marketing Manager on the complex point logic and history so the new policy was realistically implementable",
       "On system-matching errors, ran full reconciliation across 5 categories (accrual/use/cancellation, etc.) to align the ledger with actual data",
       "Owned onboarding to disseminate point operation principles to new hires and related teams against high turnover",
     ],
@@ -648,7 +648,7 @@ export const projects: Project[] = [
       "LinkedIn post views: 2,000+",
       "300 valid event leads",
       "Partner training satisfaction: 4.3/5.0",
-      "Contributed to new Dongkuk Systems partnership",
+      "Contributed to new OO Systems partnership",
     ],
     context:
       "Supported content localization, event operations, and partner training at SAP Korea's Digital Supply Chain organization, bridging global tech assets to domestic customers and partners.",
@@ -663,7 +663,7 @@ export const projects: Project[] = [
     ],
     results: [
       "Reached 2,000+ LinkedIn content views and generated 300 valid leads from event registrations",
-      "Contributed to closing a new Dongkuk Systems partnership and secured a regional (Busan/Daegu) sales pipeline",
+      "Contributed to closing a new OO Systems partnership and secured a regional (Busan/Daegu) sales pipeline",
       "Achieved partner training satisfaction of 4.3/5.0 and raised partners' solution proposal capability",
       "Produced an onboarding guide improving new-hire ramp-up and ran the large virtual bootcamp incident-free",
     ],
@@ -802,8 +802,8 @@ export const projects: Project[] = [
     problem:
       "A CEO ad-hoc request required pulling off an unprepared mural volunteering event, and the existing low CSR participation had to be improved. A strategic portfolio approach (Fun, Meaning, Growth) was needed rather than mere execution.",
     actions: [
-      "Ran the full drafting-approval-execution of the EUR 80K budget via SAP Concur/Ariba and reviewed partner SOWs (JA Korea, etc.) to preempt contract risk",
-      "On the CEO's sudden mural-volunteering request, partnered immediately with JA Korea to arrange Maebong Elementary and field logistics (bus/safety/meals) within 2 weeks",
+      "Ran the full drafting-approval-execution of the EUR 80K budget via SAP Concur/Ariba and reviewed partner SOWs (a global volunteering NGO, etc.) to preempt contract risk",
+      "On the CEO's sudden mural-volunteering request, partnered immediately with a global volunteering NGO to arrange a local elementary school and field logistics (bus/safety/meals) within 2 weeks",
       "Planned a participatory 'My Sustainability Type' booth (MBTI concept) to lower the entry barrier and improve low participation",
       "Combined plogging with picnics and ran mentorship/book clubs (120 people) to expand CSR from 'volunteering' into culture and growth",
     ],
@@ -1001,7 +1001,7 @@ export const projects: Project[] = [
   {
     slug: "gangdong-career-instructor",
     title: "Youth Major/Career Exploration Program Planning & Teaching",
-    company: "Gangdong-gu",
+    company: "Chung-Ang University",
     category: "Education/Teaching",
     period: "2022.05 ~ 2022.12",
     skills: [
@@ -1037,7 +1037,7 @@ export const projects: Project[] = [
   {
     slug: "gwnu-gifted-instructor",
     title: "Gifted-Education SQ3R/Debate Online Transition & Curriculum Upgrade",
-    company: "Gangneung-Wonju National University",
+    company: "Chung-Ang University",
     category: "Education/Teaching",
     period: "2019.08 ~ 2023.07",
     skills: [
