@@ -124,7 +124,7 @@ const t = {
       name: "변재일",
       role: "Business Development & Operations",
       tagline:
-        "흩어진 정보와 업무 프로세스를 구조화하고, 이해관계자를 조율해 실행 가능한 결과로 연결하는 사람입니다.",
+        "흩어진 정보와 업무 프로세스를 구조화하고, 이해관계자를 조율해 실행 가능한 결과로 연결합니다.",
       viewProjects: "프로젝트 보기",
       experience: "경력 보기",
       getInTouch: "연락하기",
