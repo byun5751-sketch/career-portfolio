@@ -83,6 +83,7 @@ const t = {
       actions: "Actions",
       results: "Results",
       learning: "Learning",
+      all: "All",
     },
     educationPage: {
       eyebrow: "Academic Background",
@@ -191,6 +192,7 @@ const t = {
       actions: "수행 내용",
       results: "결과",
       learning: "배운 점",
+      all: "전체",
     },
     educationPage: {
       eyebrow: "학력 사항",

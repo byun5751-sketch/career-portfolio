@@ -276,6 +276,360 @@ export const projects: Project[] = [
       "Good planning means drawing a clear blueprint so developers can code without second-guessing. When a non-developer collaborates with engineers, persuading them on 'why' matters more than dictating 'what', and true DX is not about swapping tools but about letting systems do the work people used to do.",
   },
   {
+    slug: "zeiss-content-localization",
+    title: "Global Product Web/Sales Content Localization",
+    company: "ZEISS Vision Korea",
+    category: "Marketing Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Content Localization",
+      "Transcreation",
+      "JIRA Workflow",
+      "Brand Consistency",
+      "Sales Enablement",
+    ],
+    impact: [
+      "Work speed improved 30%+",
+      "25 pages of web content shipped",
+      "Registered as official KR standard assets",
+    ],
+    context:
+      "Localized web and sales content for flagship global products (Gold Coating, Sun Lens, Anti-fog). The existing PPT/manual translation approach made version control difficult and wasted effort on updates, all during a transition to a global tool (JIRA).",
+    problem:
+      "Manual translation consumed time on text extraction and formatting and was hard to version-control. At the same time, content had to preserve the global tone and manner while being recast into locally resonant Korean marketing language.",
+    actions: [
+      "Shifted from the manual (PPT) approach to JIRA ticket-based collaboration, removing manual text extraction/entry and establishing real-time progress sharing",
+      "Followed global guidelines but avoided literal translation, applying transcreation suited to the Korean market",
+      "Ran regular alignment checks with the marketing lead to unify the internal glossary",
+      "Produced and distributed 25 pages of web content ready for immediate B2B/B2C field use",
+    ],
+    results: [
+      "Removing unnecessary formatting improved focus on pure translation, raising overall work speed by 30%+ (estimated)",
+      "Built marketing language that resonates with Korean customers while preserving the global tone and manner",
+      "Registered on the official Korean website and sales materials as standard customer-communication assets",
+    ],
+    learning:
+      "Translation is not about changing language but redefining the value proposition for the target market, and adopting a new collaboration tool is not just learning features but innovating the way of work.",
+  },
+  {
+    slug: "zeiss-academy-certificate-fulfillment",
+    title: "Academy Certificate Issuance & Delivery Optimization",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Process Standardization",
+      "Vendor Management",
+      "Scalability Design",
+      "Data Privacy",
+      "Risk Management",
+    ],
+    impact: [
+      "Monthly workload cut by 80%",
+      "Zero personal-data leaks",
+      "Shifted to a variable-cost structure",
+    ],
+    context:
+      "Issuing and delivering ZEISS Academy certificates took 5+ hours of manual work (printing/packing/shipping) per month, reducing focus on core tasks and creating an unscalable structure that could not handle a surge in trainees.",
+    problem:
+      "The manual approach requiring individual edits could not scale, and sharing customer lists (personal data) with an external vendor introduced leak risk.",
+    actions: [
+      "Upgraded the Word forms requiring individual edits into data-merge-friendly PDF forms, establishing a print-optimized spec",
+      "Handed repetitive work (printing/packing/shipping) to a specialized vendor and redesigned R&R so internal staff focus on high-value planning/management",
+      "Established and applied an encrypted file-sharing principle (R&R) between designated owners when sharing personal data with the external vendor",
+    ],
+    results: [
+      "Cut monthly workload from 5 hours to 1 hour (~80% reduction)",
+      "Built a scalable system (variable-cost structure) that can handle 10x or 100x more trainees",
+      "Maintained zero personal-data leak incidents throughout the process change and external collaboration",
+    ],
+    learning:
+      "The prerequisite for automation and outsourcing is standardizing the work, results come from allocating the optimal resources rather than doing everything myself, and the pursuit of efficiency must never compromise security principles.",
+  },
+  {
+    slug: "zeiss-academy-cs",
+    title: "Academy Trainee Operations (CS) & Cross-team Communication",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Customer Support",
+      "Communication Protocol",
+      "FAQ/Documentation",
+      "Issue Triage",
+      "Cross-team Collaboration",
+    ],
+    impact: [
+      "Zero dropped tasks",
+      "Repeat inquiries preempted",
+      "Drove a line-separation restructure",
+    ],
+    context:
+      "Frequent field work by the academy team left gaps in customer response, and early reliance on volatile messenger (Teams) communication left accountability unclear and repeated the same inquiries.",
+    problem:
+      "Communication that left no record caused dropped tasks and repeat inquiries, and there was a risk of relaying wrong information without sufficient technical knowledge (e.g., lenses).",
+    actions: [
+      "Unified the communication channel to official email with an audit trail, switching from 1:1 handoffs to CC'ing the whole relevant team",
+      "Analyzed recurring question types to improve LMS notification readability and proactively include FAQ information (Proactive CS)",
+      "Established a triage process to summarize and route technical inquiries that couldn't be answered immediately, and built the case data for a structural line-separation solution",
+    ],
+    results: [
+      "Achieved zero dropped tasks from verbal/messenger communication and enabled team-level monitoring of inquiry status",
+      "Preempted repetitive confirmation inquiries, saving response resources and improving customer information access",
+      "Blocked the possibility of claims from wrong information at the source and ultimately drove a work-scope split (line separation)",
+    ],
+    learning:
+      "The basis of collaboration is records, not memory; the best CS makes questions unnecessary; and accurately connecting rather than pretending to know is itself a problem-solving skill.",
+  },
+  {
+    slug: "zeiss-inventory-fulfillment",
+    title: "Marketing Material Inventory & Fulfillment Operations",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Inventory Management",
+      "Data Integration",
+      "Demand Forecasting",
+      "Expense Reconciliation (Concur)",
+      "SCM Collaboration",
+    ],
+    impact: [
+      "Admin time cut 35%",
+      "Inventory inquiries down 60%",
+      "Inventory error rate under 10%",
+    ],
+    context:
+      "Handling 105 marketing material types and 6,000 monthly transactions, inventory data was fragmented across 8 Excel files, making real-time status hard to grasp and causing operational risk such as missing imminent stock-outs.",
+    problem:
+      "Fragmented inventory data created order-miss and stock-out risk, cross-team inventory inquiries were frequent, and an annual budget worth hundreds of millions of KRW had to be reconciled without error.",
+    actions: [
+      "Analyzed the 8 fragmented legacy inventory files, removed duplicates, and integrated them into a single master file (5 sheets) as a Single Source of Truth",
+      "Shared the integrated master file with SCM/marketing in real time (SharePoint) to resolve information asymmetry between the warehouse and HQ",
+      "Used the integrated data to forecast imminent stock-outs and place proactive orders",
+      "Audited all corporate card usage monthly via Concur and PowerApps and clarified cost-owning departments",
+    ],
+    results: [
+      "Cut data entry/reconciliation admin time by 35% and structurally blocked human error",
+      "Reduced simple cross-team inventory inquiries by ~60%, improving focus on core planning work",
+      "Kept inventory error rate under 10% (internal data accuracy 90%+) with zero missing evidence at financial audit",
+    ],
+    learning:
+      "Scattered data is noise but integrated data becomes an asset; inventory management is not mere storage but a management activity governing cash flow and opportunity cost; and diligent reconciliation is the first line of defense for the company's financial health.",
+  },
+  {
+    slug: "zeiss-loyalty-program",
+    title: "Integrated Loyalty Program Operations & Financial Risk Management",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Loyalty Operations",
+      "Data Integrity Validation",
+      "Tax Compliance",
+      "Crisis Management",
+      "Knowledge Management",
+    ],
+    impact: [
+      "KRW 600M budget transparency secured",
+      "98.5% of claims resolved within 24h",
+      "Zero missing evidence at tax audit",
+    ],
+    context:
+      "An annual KRW 600M worth of points was fragmented across three systems (Blue, Lens, VC), driving high operational complexity, while frequent turnover left policy understanding low and created misaccrual and tax risk.",
+    problem:
+      "The fragmented point systems risked misaccrual and tax exposure, and high turnover created recurring knowledge gaps.",
+    actions: [
+      "Learning from a bulk-upload error, introduced a pre-validation process before data upload and documented/distributed accrual criteria guidelines",
+      "During 'Project Dotori' (points overhaul), reverse-mentored the Trade Marketing Manager on the complex point logic and history so the new policy was realistically implementable",
+      "On system-matching errors, ran full reconciliation across 5 categories (accrual/use/cancellation, etc.) to align the ledger with actual data",
+      "Owned onboarding to disseminate point operation principles to new hires and related teams against high turnover",
+    ],
+    results: [
+      "Resolved 98.5%+ of system errors and customer claims within 24 hours, maintaining service trust",
+      "Secured audit-defensible data integrity and guaranteed transparency for the annual KRW 600M budget",
+      "Served as a Human Bridge so operations continued without disruption despite staff changes",
+    ],
+    learning:
+      "Mistakes are opportunities to find gaps in the system and fast recovery plus process reinforcement is the real skill; financial data allows no 0.1% margin of error; and sharing knowledge levels up the entire organization's performance.",
+  },
+  {
+    slug: "zeiss-promotional-goods",
+    title: "Promotional Goods Portfolio Optimization & Sourcing",
+    company: "ZEISS Vision Korea",
+    category: "Marketing Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Merchandising",
+      "Sourcing Strategy",
+      "Vendor Discovery",
+      "Inventory Optimization",
+      "Stakeholder Coordination",
+    ],
+    impact: [
+      "Zero stock-out days for Top 5",
+      "3 new products planned",
+      "~5 new vendors sourced monthly",
+    ],
+    context:
+      "Promotional goods for optician marketing were produced by convention without validated effectiveness, and popular items frequently ran out while unpopular items piled up as dead stock.",
+    problem:
+      "Planning by gut instead of data caused simultaneous stock-outs and dead stock, and it required coordinating complex stakeholders across finance/SCM/vendors.",
+    actions: [
+      "Analyzed 12 months of shipment data to select the high-turnover Top 5 as core items, and planned 3 new trend-driven products to reshape the lineup",
+      "Introduced a hybrid sourcing strategy: bulk-ordering core items to lower unit cost while connecting non-core items to external purchase links (MRO) for drop-shipping",
+      "Orchestrated the full process from SAP registration, finance (corporate card), and SCM inbound to agency production, discovering and registering ~5 new vendors monthly",
+    ],
+    results: [
+      "Won marketing-lead approval and field response with data-driven product planning",
+      "Achieved zero stock-out days for the Top 5 popular items and cut unnecessary long-term inventory cost",
+      "Delivered marketing support tools on time through a seamless process from planning to settlement",
+    ],
+    learning:
+      "The answer to what sells lies in the data, not everything belongs in the warehouse, procurement should vary by item characteristics, and the coordination skill to break bottlenecks among complex stakeholders is what makes things happen.",
+  },
+  {
+    slug: "zeiss-posm-order-system",
+    title: "POSM Production/Delivery Order Management System",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Order System Planning",
+      "Process Automation",
+      "IT Collaboration",
+      "Quality Control",
+      "Logistics Operations",
+    ],
+    impact: [
+      "Return rate 10% → under 2%",
+      "1+ hr/week of admin removed",
+      "50 monthly transactions handled reliably",
+    ],
+    context:
+      "POSM (posters, banners, business cards, etc.) orders for field sales were processed manually in Excel on the legacy BestVC site, making order status opaque (a black box) and slow to correct, driving a return rate as high as 10%.",
+    problem:
+      "Manual Excel processing made order status opaque and returns high, causing significant frustration and inefficiency in the field.",
+    actions: [
+      "Collaborated with developers to migrate from the legacy site to a new platform (czv.kr), removing manual Excel download/upload in favor of direct in-system entry and adding a proof-upload feature",
+      "Designed an automated trigger that emails the sales rep immediately when an order is rejected, ensuring information transparency",
+      "Unified the marketing-agency-sales communication channel into the system, handling ~50 monthly transactions (worth ~KRW 2M) without delay",
+    ],
+    results: [
+      "Removed 1+ hour/week of repetitive admin and blocked production errors from missing data at the source",
+      "Enabled pre-production error correction, improving the return rate from 10% to under 2% (about 5/month) and cutting rework/shipping cost",
+      "Met accurate delivery dates to support field promotions on time (Time-to-Market)",
+    ],
+    learning:
+      "Clearly conveying the business logic (why) to developers yields powerful automation that solves field pain, user anxiety comes from waiting so immediate feedback is key to satisfaction, and in multi-stakeholder logistics a clear approval process is the key to speed and quality together.",
+  },
+  {
+    slug: "zeiss-ecommerce-migration-qa",
+    title: "E-Commerce Platform Optimization & Next-gen Web Migration QA Lead",
+    company: "ZEISS Vision Korea",
+    category: "Project Management",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Web QA",
+      "Master Data Setup",
+      "PM/Coordination",
+      "UI/UX Review",
+      "IT Communication",
+    ],
+    impact: [
+      "Zero option-setup errors",
+      "Critical errors removed pre-launch",
+      "Dev communication lead time reduced",
+    ],
+    context:
+      "The system setup procedure for promotions (lens-product-coupon) was complex enough to require developer resources, and the aging legacy sites (BestVC, CZV.co.kr) required continuous data mapping.",
+    problem:
+      "Complex product option setup and the burden of aging sites persisted, and the quality of the new integrated site (CZV.kr) had to be secured before launch.",
+    actions: [
+      "Converted marketing promotion plans (refractive index × 12 product combinations) into system-recognizable data values (lens/product codes) and created and delivered defect-free master data",
+      "Attended the new integrated site (CZV.kr) build meetings weekly, performed precise QA against the global standard (MyZeiss) and Figma designs, and ticketed and verified bugs/improvements assigned to developers",
+      "Coordinated requirements between internal (marketing/sales) and external (developers/designers) parties and clarified vague change requests into concrete technical requirements",
+    ],
+    results: [
+      "Defended zero option-setup errors, preventing promotion launch delays and saving developers' repetitive work",
+      "Removed critical errors before launch and secured brand consistency",
+      "Clarified vague requests into concrete requirements, reducing communication ping-pong and accelerating development",
+    ],
+    learning:
+      "Translating the language of marketing (planning) into the language of systems (code) is the core of digital operations, web builds are shaped by the PM's coordination of planning-design-development, and non-developers must communicate with clear specs and priorities rather than emotion.",
+  },
+  {
+    slug: "zeiss-store-locator",
+    title: "Global Website Store Locator Data Management",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Geospatial Data",
+      "Global Collaboration",
+      "Bug Reporting",
+      "O2O Marketing",
+      "Partner Management",
+    ],
+    impact: [
+      "80%+ of faulty addresses fixed",
+      "Drove HQ logic fix",
+      "Delivered O2O traffic to partners",
+    ],
+    context:
+      "For partner opticians, a Store Locator listing is both an intangible asset ('ZEISS certified') and a sales channel. However, the Google Maps-based global system was incompatible with Korea's address system, and a bug that failed to delete closed opticians triggered partner complaints (VoC).",
+    problem:
+      "The global system couldn't recognize detailed Korean addresses and closed opticians weren't removed from the map, exposing inaccurate information and fueling partner dissatisfaction.",
+    actions: [
+      "Overcame the Google Maps API's inability to recognize detailed Korean addresses via manual Place ID mapping and coordinate correction, normalizing 80%+ of the faulty address data",
+      "Persistently communicated the closed-optician deletion bug to HQ via English email, providing replication information to drive a fundamental logic fix",
+      "Beyond simple address display, embedded Naver reservation (short URL)/blog links into the data to drive actual visit reservations (O2O)",
+    ],
+    results: [
+      "Normalized 80%+ of faulty address data, improving search accuracy",
+      "Resolved partner dissatisfaction from inaccurate information and raised ZEISS's digital brand trust",
+      "Contributed to HQ-partner goodwill by providing partners with tangible marketing benefit (traffic)",
+    ],
+    learning:
+      "Data quality is completed by the owner's persistence, not the system; global collaboration hinges on logically defining a problem and pushing for resolution; and the purpose of platform operations is to deliver value to end users, not merely to manage.",
+  },
+  {
+    slug: "zeiss-onboarding-guideline",
+    title: "New-hire Onboarding Guideline Systematization & Digital Transformation",
+    company: "ZEISS Vision Korea",
+    category: "Operations",
+    period: "2025.02 ~ 2026.03",
+    skills: [
+      "Process Design",
+      "AI-assisted Documentation",
+      "Knowledge Management",
+      "Onboarding",
+      "Data Readability",
+    ],
+    impact: [
+      "Handover 2 weeks → 5 days",
+      "Manual effort cut 40%",
+      "Info search time cut 70%",
+    ],
+    context:
+      "The existing Word-based manual had low visibility and no search, lowering handover efficiency. In particular, the operational risk in transferring non-standard tasks (39 types including ad-hoc work) needed to be removed systematically.",
+    problem:
+      "The non-searchable Word manual and tacit knowledge of 39 task types held by individuals made handovers long and quality inconsistent.",
+    actions: [
+      "Surveyed all 39 tasks — daily (5), ad-hoc (9), weekly (7), monthly (18) — and designed a data schema by frequency and importance",
+      "Used AI tools (e.g., Genspark) to summarize complex processes into a standard 'title-summary-image-description' format and build the skeleton",
+      "Moved away from text-heavy Word docs to an Excel DB with filtering/index features for instant information lookup",
+      "Used the guideline to run self-directed learning guides and on-site coaching for new staff",
+    ],
+    results: [
+      "Secured a complete list of all 39 tasks and 100% operational visibility",
+      "Cut manual creation effort by 40% and information search time by 70%",
+      "Shortened the typical 2+ week handover to 5 days (60%+ efficiency gain)",
+    ],
+    learning:
+      "This built the architecture skill to convert fragmented information into a standard system, confirmed that data's value is determined by the consumer's convenience rather than the supplier's, and that a clear guideline is the best communication tool for bridging generational and experience gaps.",
+  },
+  {
     slug: "sap-customer-advisory",
     title: "Customer Advisory Reference Analysis",
     company: "SAP Korea",
