@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, DM_Serif_Display } from "next/font/google";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -8,8 +9,6 @@ const dmSerif = DM_Serif_Display({
   weight: "400",
   subsets: ["latin"],
 });
-
-const SITE_URL = "https://brasley-byun.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

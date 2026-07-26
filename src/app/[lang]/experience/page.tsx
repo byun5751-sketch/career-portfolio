@@ -3,8 +3,7 @@ import { ChevronRight, Building2 } from "lucide-react";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
-
-const SITE_URL = "https://brasley-byun.vercel.app";
+import { SITE_URL } from "@/lib/site";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;

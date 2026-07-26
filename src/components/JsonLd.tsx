@@ -1,6 +1,5 @@
 import type { Lang } from "@/lib/i18n";
-
-const SITE_URL = "https://brasley-byun.vercel.app";
+import { PROFILE_IMAGE_URL, SITE_URL } from "@/lib/site";
 
 export function JsonLd({ lang }: { lang: Lang }) {
   const isKo = lang === "ko";
@@ -10,7 +9,7 @@ export function JsonLd({ lang }: { lang: Lang }) {
     "@type": "Person",
     name: isKo ? "변재일" : "Brasley Byun",
     url: `${SITE_URL}/${lang}`,
-    image: `${SITE_URL}/profile.jpeg`,
+    image: PROFILE_IMAGE_URL,
     jobTitle: "Business Development",
     worksFor: {
       "@type": "Organization",

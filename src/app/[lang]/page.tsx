@@ -2,16 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import {
-  Search, Settings, Users, Briefcase, BarChart3, Megaphone,
+  Search, Settings, Users, Briefcase, BarChart3, Megaphone, Mail,
   Database, FolderKanban, ArrowRight, Building2, GraduationCap, Award,
 } from "lucide-react";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
+import { SITE_URL } from "@/lib/site";
 import { ProjectCard } from "@/components/ProjectCard";
 import { JsonLd } from "@/components/JsonLd";
-
-const SITE_URL = "https://brasley-byun.vercel.app";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -85,6 +84,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <Link href={`/${lang}/experience`} className="rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-medium text-text transition-colors hover:border-border-strong">
                 {t.hero.experience}
               </Link>
+              <a href="#contact" className="flex items-center gap-2 rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-medium text-text transition-colors hover:border-border-strong hover:text-accent">
+                <Mail size={14} />
+                {t.hero.getInTouch}
+              </a>
             </div>
           </div>
 

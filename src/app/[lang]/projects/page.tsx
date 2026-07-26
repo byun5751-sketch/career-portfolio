@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import type { Lang } from "@/lib/i18n";
 import { getTranslations } from "@/lib/i18n";
 import { getData } from "@/lib/get-data";
+import { SITE_URL } from "@/lib/site";
 import ProjectsList from "@/components/ProjectsList";
-
-const SITE_URL = "https://brasley-byun.vercel.app";
 
 // Sort key from a period string like "2025.02 ~ 2026.03" or "2021.12" — uses the start month.
 function startKey(period: string): number {

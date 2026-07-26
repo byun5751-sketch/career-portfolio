@@ -14,9 +14,9 @@ const t = {
     hero: {
       status: "Currently at BIGO Live - Business Development",
       name: "Brasley Byun",
-      role: "Business Development & Operations",
+      role: "BD/Ops builder for structured execution",
       tagline:
-        "I structure scattered information and processes, coordinate stakeholders, and connect everything to actionable results.",
+        "I turn scattered information, delayed workflows, and cross-functional ambiguity into clear operating systems and measurable outcomes.",
       viewProjects: "View Projects",
       experience: "Experience",
       getInTouch: "Get in Touch",
@@ -123,9 +123,9 @@ const t = {
     hero: {
       status: "현재 BIGO Live에서 Business Development 담당",
       name: "변재일",
-      role: "Business Development & Operations",
+      role: "운영 문제를 구조화하고 실행으로 연결하는 BD/Ops",
       tagline:
-        "흩어진 정보와 업무 프로세스를 구조화하고, 이해관계자를 조율해 실행 가능한 결과로 연결합니다.",
+        "흩어진 정보, 지연되는 업무 흐름, 복잡한 이해관계를 실행 가능한 운영 체계와 측정 가능한 결과로 바꿉니다.",
       viewProjects: "프로젝트 보기",
       experience: "경력 보기",
       getInTouch: "연락하기",
