@@ -111,16 +111,12 @@ src/
 - sitemap / robots / OG / JSON-LD / Google·Naver 소유 확인 등 SEO 기본기
 - 연락처 3채널(이메일, LinkedIn, 카카오톡) 노출
 
-### 로컬에서 작업 중 (커밋/배포 안 됨)
-`main`은 원격과 동일한 상태(`cda417f`)지만, 로컬 워킹 트리에 아직 커밋하지 않은 변경이 있습니다.
-
-- `src/lib/site.ts` **신규 파일(untracked)**: `SITE_URL`을 한 곳으로 모으고, 기존에 `brasley-byun.vercel.app`로 하드코딩돼 있던 값을 `https://www.brasleybyun.com`으로 교체
-- `globals.css`: 접근성 대비 개선 (`--border-strong`, `--text-tertiary`, `--accent`를 더 진하게)
-- `i18n.ts`: 홈 Hero의 role/tagline 문구를 한·영 모두 재작성
+### 최근 반영 (2026-07-27, `077977b`)
+- `src/lib/site.ts` 신설: `SITE_URL` / `PROFILE_IMAGE_URL`을 한 곳에 모으고, 6곳에 `brasley-byun.vercel.app`으로 하드코딩돼 있던 상수를 제거. canonical / sitemap / robots / JSON-LD가 모두 `https://www.brasleybyun.com`을 가리키도록 정정
+- `globals.css`: 접근성 대비 개선 (`--accent`, `--border-strong`, `--text-tertiary`를 더 진하게)
+- `i18n.ts`: 홈 Hero의 role / tagline 문구를 한·영 모두 재작성
 - `[lang]/page.tsx`: Hero에 "연락하기(Get in Touch)" 버튼 추가
-- 위 변경에 맞춘 import 정리 (`layout.tsx`, `sitemap.ts`, `robots.ts`, `Footer.tsx`, `JsonLd.tsx`, 각 페이지)
-
-즉 **현재 운영 사이트는 canonical/sitemap URL이 `brasley-byun.vercel.app`을 가리키는 상태**이며, 위 변경을 커밋·푸시하면 `www.brasleybyun.com`으로 정정됩니다.
+- `Footer.tsx`: 연락처 아이콘 링크 3개에 `aria-label` 추가
 
 ### 미구현 / 향후 과제
 - 다크 모드
